@@ -1,0 +1,27 @@
+# Build directories
+build/
+cmake-build-*/
+.gradle/
+.idea/
+*.apk
+*.so
+!libx.so
+
+# IDE files
+.vscode/
+*.swp
+*.swo
+*~
+
+# Compiled Object files
+*.o
+*.obj
+
+# Android specific
+local.properties
+*.iml
+.externalNativeBuild
+.cxx/
+
+# ImGui ini
+imgui.ini
